@@ -19,16 +19,28 @@ width: 177px;
   align-items: center;
 }
 
+.logo:hover{
+  opacity: 0.8;
+}
+
+.logo:active{
+  opacity: 0.6;
+}
+
+.logo{
+  transition: opacity 0.4s ease;
+}
+
 .nav-links{
 display: flex;
 align-items: center;
 
 }
 
+
 .site-nav{
 list-style: none;
 display: flex
-
 
 }
 
@@ -42,16 +54,37 @@ display: flex
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
+  transition: color 0.4s ease,
+  opacity 0.3s ease ;
+}
+
+.site-link-nav:hover{
+  color: #ff7500;
+}
+
+.site-link-nav:active{
+  opacity: 0.6;
 }
 
 .register-button{
   width: 155px;
-  height: 39px;
+  height: 25px;
 background-color: #ff7500;
 color: #fff;
 text-decoration: none;
 font-family: "Roboto","Arial", sans-serif;
+transition: opacity 0.4s ease,
+  ;
 }
+
+.register-button:hover{
+  opacity: 0.8;
+}
+
+.register-button:active{
+  opacity: 0.6;
+}
+
 
 .hero-section{
   background-color: #252420;
@@ -84,6 +117,16 @@ font-family: "Roboto","Arial", sans-serif;
 .order-box{
   width: 152px;
   height: 39px;
+  transition: opacity 0.4s ease;
+}
+
+
+.order-box:hover{
+  opacity: 0.8;
+}
+
+.order-box:active{
+  opacity:0.6;
 }
 
 .order-book{
@@ -152,6 +195,7 @@ justify-content: space-between;
 
 .promo-content{
   width: 440px;
+  transition: opacity 0.4s ease ;
 }
 
 .promo-heading{
@@ -177,6 +221,14 @@ justify-content: space-between;
   color: #ff7500;
 }
 
+.order-book:hover{
+  opacity: 0.8;
+}
+
+.order-book:active{
+  opacity: 0.6;
+}
+
 .footer{
   background-color: #f8f8f8;
 }
@@ -184,6 +236,7 @@ justify-content: space-between;
 .icon-link{
   width: 24px;
   height: 24px;
+
 
 }
 
@@ -198,12 +251,32 @@ justify-content: space-between;
 
 }
 
-.icon-list{
+.icon-list {
   display: flex;
+  align-items: center;
+
+
 }
+
+.icon-list a{
+color: #222;
+transition: color 0.4s ease,
+  opacity 0.4s ease;
+}
+
+.icon-list a:hover{
+  color: #ff7500;
+}
+
+.icon-list a:active{
+  opacity: 0.6;
+}
+
+
 
 .footer-links{
   display: flex;
+
 }
 
 .site-footer-hr{
@@ -218,4 +291,15 @@ background-color: rgb(37, 36, 32, 0.5);
   font-size: 16px;
   line-height: 19px;
   color: #252420;
+  transition: color 0.4s ease;
+
+}
+
+
+.footer-links a:hover{
+  color: #ff7500;
+}
+
+.footer-links a:active{
+  opacity: 0.6;
 }

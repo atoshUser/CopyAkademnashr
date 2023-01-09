@@ -6,6 +6,11 @@ line-height: 150%;
 letter-spacing: 0.5px;
 }
 
+:focus{
+ outline: 2px dotted #ff7500;
+}
+
+
 .logo{
 width: 177px;
   height: 38px;

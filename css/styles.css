@@ -22,6 +22,10 @@ width: 177px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
 }
 
 .logo:hover{
@@ -45,7 +49,8 @@ align-items: center;
 
 .site-nav{
 list-style: none;
-display: flex
+display: flex;
+padding: 0;
 
 }
 
@@ -78,8 +83,11 @@ background-color: #ff7500;
 color: #fff;
 text-decoration: none;
 font-family: "Roboto","Arial", sans-serif;
-transition: opacity 0.4s ease,
-  ;
+transition: opacity 0.4s ease;
+padding: 12px 24px;
+display: inline-block;
+border-radius: 4px;
+font-weight: bold;
 }
 
 .register-button:hover{
@@ -99,6 +107,12 @@ transition: opacity 0.4s ease,
   align-items: center;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-img{
+  border-radius: 8px;
 }
 
 
@@ -107,6 +121,7 @@ transition: opacity 0.4s ease,
   width: 93px;
   height: 3px;
   background-color: #ff7500;
+border: none;
 }
 
 .hero-heading{
@@ -142,6 +157,8 @@ letter-spacing: 0.5px;
 background-color: #ff7500;
 text-decoration: none;
 color: #fff;
+padding: 12px 24px;
+border-radius: 4px;
 
 }
 
@@ -149,17 +166,20 @@ color: #fff;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 
 .feature-section{
-
+ padding-top: 210px;
   background-color: #fff;
+  padding-bottom: 210px;
 }
 
 
 
 .feature-icon{
   width: 340px;
+
 }
 
 .feature-heading{
@@ -177,6 +197,11 @@ color: #fff;
 width: 100px;
 height: 100px;
 background-color: rgb(255, 117, 0, 0.2);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+
 }
 
 .feature-title{
@@ -196,6 +221,9 @@ background-color: #252420;
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding-top: 120px;
+padding-bottom: 160px;
+border-radius: 12px;
 }
 
 .promo-content{
@@ -247,6 +275,8 @@ justify-content: space-between;
 
 .site-footer ul{
   list-style: none;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .footer-list{
@@ -259,7 +289,7 @@ justify-content: space-between;
 .icon-list {
   display: flex;
   align-items: center;
-
+   padding: 0;
 
 }
 
@@ -281,12 +311,18 @@ transition: color 0.4s ease,
 
 .footer-links{
   display: flex;
+  justify-content: space-between;
 
+}
+
+.footer-links ul{
+  padding: 0;
 }
 
 .site-footer-hr{
 height: 2.5px;
 background-color: rgb(37, 36, 32, 0.5);
+border: 0;
 }
 
 .footer-links a{

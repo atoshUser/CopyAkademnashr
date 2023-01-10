@@ -14,6 +14,7 @@ letter-spacing: 0.5px;
 .logo{
 width: 177px;
   height: 38px;
+  display: block;
 
 }
 
@@ -343,6 +344,7 @@ margin-bottom: 24px;
 
 .icon-list li{
   margin-right: 16px;
+  display: block;
 }
 
 
@@ -354,6 +356,7 @@ margin-bottom: 24px;
 color: #222;
 transition: color 0.4s ease,
   opacity 0.4s ease;
+  display: block;
 }
 
 .icon-list a:hover{

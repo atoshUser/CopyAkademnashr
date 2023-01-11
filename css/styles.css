@@ -1,9 +1,15 @@
+
+
+
 body{
+  margin: 0;
+padding: 0;
   font-family: "roboto";
   font-weight: 400;
   font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.5px;
+
 }
 
 :focus{
@@ -20,14 +26,32 @@ width: 177px;
 
 .site-header{
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-top: 5px solid #ff7500;
   padding-top: 16px;
   padding-bottom: 16px;
 
 }
+
+
+
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+padding-left: 20px;
+  padding-right: 20px;
+ margin-right: auto;
+ margin-left: auto;
+
+}
+
+
+.site-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .logo:hover{
   opacity: 0.8;
@@ -113,18 +137,25 @@ font-weight: bold;
 
 .hero-section{
   background-color: #252420;
-  width: 1440px;
+
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
+
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
 .hero-img{
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 #ff7500;
 }
 
 
@@ -149,6 +180,9 @@ margin-bottom: 40px;
  letter-spacing: 0.5px;
 
 }
+
+
+
 
 .hero-text{
   margin: 0;
@@ -183,6 +217,11 @@ border-radius: 4px;
 
 }
 
+
+.sale-book{
+  border-radius: 12px;
+}
+
 .features-link{
   display: flex;
   list-style: none;
@@ -204,6 +243,8 @@ border-radius: 4px;
   margin-right: 40px;
 
 }
+
+
 
 .feature-icon:last-child{
   margin: 0;
@@ -231,10 +272,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 50%;
-
+ margin-bottom: 34px;
 }
 
 .feature-title{
+  margin: 0;
+  margin-bottom: 24px;
   font-family: 'roboto condenced';
   font-style: normal;
   font-weight: 700;
@@ -244,21 +287,30 @@ border-radius: 50%;
   line-height: 1.5px;
 }
 
+.title-info{
+  margin: 0;
+}
+
 
 .promo{
-width: 1100px;
-background-color: #252420;
-display: flex;
+  padding-bottom: 160px;
+  padding-top: 120px;
+}
+
+.promo-inner{
+  padding: 64px;
+  background-color: #252420;
+  border-radius: 12px;
+  display: flex;
 align-items: center;
 justify-content: space-between;
-padding-top: 120px;
-padding-bottom: 160px;
-border-radius: 12px;
+color:#fff ;
 }
 
 .promo-content{
   width: 440px;
   transition: opacity 0.4s ease ;
+
 }
 
 .promo-heading{
@@ -379,6 +431,7 @@ transition: color 0.4s ease,
   padding: 0;
   margin: 0;
   margin-right: 68px;
+
 }
 
 .footer-links ul:last-child{
@@ -391,6 +444,8 @@ background-color: rgb(37, 36, 32, 0.5);
 border: 0;
 }
 
+
+
 .footer-links a{
   text-decoration: none;
   font-style: normal;
@@ -399,7 +454,15 @@ border: 0;
   line-height: 19px;
   color: #252420;
   transition: color 0.4s ease;
+}
 
+
+.footer-links li{
+  margin-bottom: 16px;
+}
+
+.footer-links li:last-child{
+  margin-bottom: 0;
 }
 
 
